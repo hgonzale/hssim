@@ -1,9 +1,10 @@
-# Hybrid System Simulator
+-- Hybrid System Simulator --
 
 Each folder contains the implementation of an example in Section V in
 [1], as detailed below.
 
-# Forced Linear Oscillator with Stop
+
+- Forced Linear Oscillator with Stop
 
 The folder 'mass_wall' contains a Matlab implementation of the
 algorithm from Fig. 9 in [1], and the forced oscillator in Section V-A
@@ -38,7 +39,7 @@ to call the PS method, use the 'PS_method.m' file as is done on line
 This code was tested on Matlab R2011b and R2013a.
 
 
-# Verification of a Navigation Hybrid System
+- Verification of a Navigation Hybrid System
 
 The folder 'navigation' contains a Matlab implementation of the
 algorithm from Fig. 9 in [1], and the navigation benchmark in Section
@@ -75,7 +76,7 @@ then called using the 'fwd_RK2.m' file as is done on line 47 of
 The code was tested on Matlab R2011b and R2013a.
 
 
-# Polyped Locomotion Hybrid System Model
+- Polyped Locomotion Hybrid System Model
 
 This folder contains a Python implementation of the algorithm from
 Fig. 9 in [1], and the multi-legged locomotion example from Section
@@ -106,7 +107,8 @@ locomotion simulation simply change the 'x0' and 'p0' variables in
 This code was tested on Python 2.7, NumPy 1.7, SciPy 0.12 (GCC 4.7),
 Matplotlib 1.2, and iPython 0.13.
 
-# References
+
+- References
 
 [1] S.A. Burden, H. Gonzalez, R. Vasudevan, R. Bajcsy, and
 S.S. Sastry, "Metrization and Simulation of Controlled Hybrid
